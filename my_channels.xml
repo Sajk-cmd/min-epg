@@ -68,4 +68,10 @@
   <channel site="tv24.se" site_id="v-sport-golf-hd" xmltv_id="VSportGolf.se@SD">V Sport Golf</channel>
   <channel site="tv24.se" site_id="viaplay-sport" xmltv_id="ViaplaySport.se@SD">Viaplay Sport</channel>
   <channel site="tv24.se" site_id="atg-live" xmltv_id="ATGLive.se@SD">ATG Live</channel>
+  <channel site="tv24.se" site_id="svt-barn" xmltv_id="SVTBarn.se@SD">SVT Barn</channel>
+  <channel site="tv24.se" site_id="cartoon-network" xmltv_id="CartoonNetworkWesternEurope.uk@Sweden">Cartoon Network</channel>
+  <channel site="tv24.se" site_id="disney-channel-hd" lang="sv" xmltv_id="">Disney Channel HD</channel>
+  <channel site="tv24.se" site_id="nick-jr" lang="sv" xmltv_id="NickJrScandinavia.nl@SD">Nick JR</channel>
+  <channel site="tv24.se" site_id="nicktoons" lang="sv" xmltv_id="NicktoonsScandinavia.nl@SD">Nicktoons</channel>
+  <channel site="tv24.se" site_id="nickelodeon" lang="sv" xmltv_id="Nickelodeon.se@SD">Nickelodeon</channel>
 </channels>
