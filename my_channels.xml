@@ -47,4 +47,26 @@
   <channel site="tv24.se" site_id="cnn-international" xmltv_id="CNNInternational.us@MENA">CNN</channel>
   <channel site="tv24.se" site_id="bbc-news" xmltv_id="BBCNews.uk@SD">BBC News UK</channel>
   <channel site="tv24.se" site_id="sky-news" xmltv_id="SkyNews.uk@SD">Sky News UK</channel>
+  <channel site="tv24.se" site_id="tv4-fotboll" xmltv_id="TV4Fotboll.se@SD">TV4 Fotboll</channel>
+  <channel site="tv24.se" site_id="tv4-hockey" xmltv_id="TV4Hockey.se@SD">TV4 Hockey</channel>
+  <channel site="tv24.se" site_id="tv4-sportkanalen" xmltv_id="TV4Sportkanalen.se@SD">TV4 Sportkanalen</channel>
+  <channel site="tv24.se" site_id="tv4-motor" xmltv_id="TV4Motor.se@SD">TV4 Motor</channel>
+  <channel site="tv24.se" site_id="tv4-tennis" xmltv_id="TV4Tennis.se@SD">TV4 Tennis</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-1" xmltv_id="TV4SportLive1.se@SD">TV4 Sport Live 1</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-2" xmltv_id="TV4SportLive2.se@SD">TV4 Sport Live 2</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-3" xmltv_id="TV4SportLive3.se@SD">TV4 Sport Live 3</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-4" xmltv_id="TV4SportLive4.se@SD">TV4 Sport Live 4</channel>
+  <channel site="tv24.se" site_id="eurosport-1-hd" lang="sv" xmltv_id="">Eurosport 1 HD</channel>
+  <channel site="tv24.se" site_id="eurosport-2-hd" lang="sv" xmltv_id="">Eurosport 2 HD</channel>
+  <channel site="tv24.se" site_id="v-sport-extra" xmltv_id="VSportExtra.se@SD">V Sport Extra</channel>
+  <channel site="tv24.se" site_id="v-sport-1-hd" xmltv_id="VSport1.se@SD">V Sport 1</channel>
+  <channel site="tv24.se" site_id="v-sport-ultra-hd" xmltv_id="VSportUltraHD.se@SD">V Sport Ultra UHD</channel>
+  <channel site="tv24.se" site_id="v-sport-premium-hd" xmltv_id="VSportPremium.se@SD">V Sport Premium</channel>
+  <channel site="tv24.se" site_id="v-sport-fotboll-hd" xmltv_id="VSportFootball.se@SD">V Sport Football</channel>
+  <channel site="tv24.se" site_id="v-sport-vinter" xmltv_id="VSportVinter.se@SD">V Sport Vinter</channel>
+  <channel site="tv24.se" site_id="v-sport-motor-hd" xmltv_id="VSportMotor.se@SD">V Sport Motor</channel>
+  <channel site="tv24.se" site_id="v-sport-golf-hd" xmltv_id="VSportGolf.se@SD">V Sport Golf</channel>
+  <channel site="tv24.se" site_id="viaplay-sport" xmltv_id="ViaplaySport.se@SD">Viaplay Sport</channel>
+  <channel site="tv24.se" site_id="atg-live" xmltv_id="ATGLive.se@SD">ATG Live</channel>
+</channels>
 </channels>
