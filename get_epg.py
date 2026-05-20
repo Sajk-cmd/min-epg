@@ -41,8 +41,8 @@ if __name__ == "__main__":
     wanted_channels = load_wanted_channels()
     print(f"Hittade {len(wanted_channels)} önskade kanaler i kanaler.txt.")
     
-    # Den officiella, genererade svenska EPG-filen från iptv-org
-    epg_url = "epg_url = "https://iptv-org.github.io/epg/guides/se.xml.gz"
+ # Den officiella, genererade svenska EPG-filen från iptv-org
+    epg_url = "https://iptv-org.github.io/epg/guides/se.xml.gz"
     print("Hämtar EPG-data...")
     
     response = requests.get(epg_url, timeout=60)
