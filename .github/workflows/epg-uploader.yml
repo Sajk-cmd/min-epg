@@ -34,7 +34,7 @@ jobs:
         cd epg-grabber
         npm install
 
-- name: Grab EPG for Sweden
+    - name: Grab EPG for Sweden
       run: |
         cd epg-grabber
         npm run grab -- --sites=tv24.se
