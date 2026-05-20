@@ -36,15 +36,15 @@
   <channel site="tv24.se" site_id="national-geographic-wild" xmltv_id="NationalGeographicWild.se@SD">National Geographic Wild</channel>
   <channel site="tv24.se" site_id="history" xmltv_id="History.se@SD">History</channel>
   <channel site="tv24.se" site_id="h2" xmltv_id="History2Nordic.us@SD">History 2</channel>
-  <channel site="tv24.se" site_id="animal-planet" xmltv_id="AnimalPlanetNordic.uk@SD">Animal Planet</channel>
+  <channel site="tv24.se" site_id="animal-planet" lang="sv" xmltv_id="AnimalPlanetNordic.uk@SD">Animal Planet</channel>  
   <channel site="tv24.se" site_id="tlc" xmltv_id="TLC.se@SD">TLC</channel>
   <channel site="tv24.se" site_id="horse-country" xmltv_id="HorseCountryTV.uk@SD">Horse &amp; Country</channel>
   <channel site="tv24.se" site_id="viasat-nature" xmltv_id="ViasatNature.se@SD">Viasat Nature</channel>
   <channel site="tv24.se" site_id="viasat-history" xmltv_id="ViasatHistory.se@SD">Viasat History</channel>
   <channel site="tv24.se" site_id="viasat-explore" xmltv_id="ViasatExplore.se@SD">Viasat Explore</channel>
-  <channel site="tv24.se" site_id="travel-channel" xmltv_id="TravelChannelEMEA.uk@SD">Travel Channel</channel>
-  <channel site="tv24.se" site_id="al-jazeera" xmltv_id="AlJazeera.qa@English">Al Jazeera</channel>
-  <channel site="tv24.se" site_id="cnn-international" xmltv_id="CNNInternational.us@MENA">CNN</channel>
+  <channel site="tv24.se" site_id="travel-channel-1" lang="sv" xmltv_id="">Travel Channel</channel>
+  <channel site="tv24.se" site_id="al-jazeera-english" lang="sv" xmltv_id="">Al Jazeera English</channel>
+  <channel site="tv24.se" site_id="cnn-international-hd" lang="sv" xmltv_id="">CNN International HD</channel>
   <channel site="tv24.se" site_id="bbc-news" xmltv_id="BBCNews.uk@SD">BBC News UK</channel>
   <channel site="tv24.se" site_id="sky-news" xmltv_id="SkyNews.uk@SD">Sky News UK</channel>
   <channel site="tv24.se" site_id="tv4-fotboll" xmltv_id="TV4Fotboll.se@SD">TV4 Fotboll</channel>
@@ -68,5 +68,4 @@
   <channel site="tv24.se" site_id="v-sport-golf-hd" xmltv_id="VSportGolf.se@SD">V Sport Golf</channel>
   <channel site="tv24.se" site_id="viaplay-sport" xmltv_id="ViaplaySport.se@SD">Viaplay Sport</channel>
   <channel site="tv24.se" site_id="atg-live" xmltv_id="ATGLive.se@SD">ATG Live</channel>
-</channels>
 </channels>
