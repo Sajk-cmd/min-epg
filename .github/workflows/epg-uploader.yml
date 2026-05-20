@@ -2,8 +2,8 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Körs automatiskt varje natt kl 03:00 UTC
-  workflow_dispatch: # Gör att du kan starta uppdateringen manuellt med en knapp
+    - cron: '0 5 * * *'
+  workflow_dispatch:
 
 jobs:
   grab-epg:
@@ -13,37 +13,15 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-
-    - name: Setup Python (för filtrering och Dropbox)
+    - name: Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
-    - name: Install Python dependencies
+    - name: Install Dependencies
       run: pip install requests
 
-    - name: Clone iptv-org/epg
-      run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-grabber
-
-    - name: Install dependencies
-      run: |
-        cd epg-grabber
-        npm install
-
-    - name: Grab EPG for Sweden
-      run: |
-        cd epg-grabber
-        npm run grab -- --sites=tv.nu
-
-    - name: Move guide to root
-      run: |
-        mv epg-grabber/guide.xml ./guide_raw.xml
-
-    - name: Filter and Upload to Dropbox
+    - name: Run EPG Fetch and Filter
       env:
         DROPBOX_TOKEN: ${{ secrets.DROPBOX_TOKEN }}
       run: python filter_and_upload.py
