@@ -6,10 +6,9 @@ DROPBOX_TOKEN = os.environ.get("DROPBOX_TOKEN")
 
 def load_wanted_channels():
     if not os.path.exists("kanaler.txt"):
-        print("Hittade inte kanaler.txt!")
-        return []
+        print("Hittade inte kanaler.txt! Laddar upp hela guiden ofiltrerad...")
+        return None
     with open("kanaler.txt", "r", encoding="utf-8") as f:
-        # Sparar namnen i lowercase och rensar mellanslag för säkrare matchning
         return [line.strip().lower().replace(" ", "") for line in f if line.strip()]
 
 def upload_to_dropbox(local_file_path, dropbox_destination_path):
@@ -39,28 +38,31 @@ def upload_to_dropbox(local_file_path, dropbox_destination_path):
 
 if __name__ == "__main__":
     wanted_channels = load_wanted_channels()
-    print(f"Hittade {len(wanted_channels)} önskade kanaler i kanaler.txt.")
+    raw_file = "guide_raw.xml"
+    output_file = "guide.xml"
     
- # Den officiella, genererade svenska EPG-filen från iptv-org
-    epg_url = "https://iptv-org.github.io/epg/guides/se.xml.gz"
-    print("Hämtar EPG-data...")
-    
-    response = requests.get(epg_url, timeout=60)
-    if response.status_code != 200:
-        print(f"Kunde inte hämta EPG-data (Statuskod: {response.status_code})")
+    if not os.path.exists(raw_file):
+        print("Hittade ingen genererad guide_raw.xml från tv.nu!")
         exit(1)
         
-    print("EPG nedladdad. Filtrerar ut dina valda kanaler...")
+    if wanted_channels is None:
+        # Om kanaler.txt saknas, ladda bara upp originalfilen
+        upload_to_dropbox(raw_file, "/guide.xml")
+        exit(0)
+        
+    print(f"Filtrerar guiden för {len(wanted_channels)} önskade kanaler...")
     
     try:
-        root = ET.fromstring(response.content)
+        tree = ET.parse(raw_file)
+        root = tree.getroot()
+        
         new_root = ET.Element("tv")
         if "generator-info-name" in root.attrib:
             new_root.set("generator-info-name", root.attrib["generator-info-name"])
             
         matched_channel_ids = set()
         
-        # Gå igenom alla kanaler i filen och se vilka som matchar dina namn
+        # Sök efter matchande kanaler baserat på display-name
         for channel in root.findall("channel"):
             display_name = channel.find("display-name")
             if display_name is not None and display_name.text:
@@ -77,12 +79,13 @@ if __name__ == "__main__":
                 new_root.append(programme)
                 program_count += 1
                 
-        print(f"Matchade {len(matched_channel_ids)} kanaler med totalt {program_count} program.")
+        print(f"Filtrering klar: Matchade {len(matched_channel_ids)} kanaler med totalt {program_count} program.")
         
-        tree = ET.ElementTree(new_root)
-        tree.write("guide.xml", encoding="utf-8", xml_declaration=True)
+        new_tree = ET.ElementTree(new_root)
+        new_tree.write(output_file, encoding="utf-8", xml_declaration=True)
         
-        upload_to_dropbox("guide.xml", "/guide.xml")
+        # Ladda upp till Dropbox
+        upload_to_dropbox(output_file, "/guide.xml")
         
     except Exception as e:
         print(f"Ett fel uppstod vid filtrering av XML: {e}")
