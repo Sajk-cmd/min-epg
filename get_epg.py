@@ -14,7 +14,7 @@ def load_wanted_channels():
 
 def upload_to_dropbox(local_file_path, dropbox_destination_path):
     if not DROPBOX_TOKEN:
-        print("Dropbox Token saknas helt i GitHub Secrets! Kontrollera inställningarna.")
+        print("Dropbox Token saknas i GitHub Secrets!")
         return False
         
     headers = {
@@ -41,8 +41,8 @@ if __name__ == "__main__":
     wanted_channels = load_wanted_channels()
     print(f"Hittade {len(wanted_channels)} önskade kanaler i kanaler.txt.")
     
-    # Vi använder en mycket stabil och öppen XMLTV-källa för Skandinavien
-    epg_url = "https://raw.githubusercontent.com/HelmerLator/Sweden-EPG/main/Sweden.xml"
+    # Den officiella, genererade svenska EPG-filen från iptv-org
+    epg_url = "https://iptv-org.github.io/epg/guides/se.xml"
     print("Hämtar EPG-data...")
     
     response = requests.get(epg_url, timeout=60)
@@ -53,27 +53,23 @@ if __name__ == "__main__":
     print("EPG nedladdad. Filtrerar ut dina valda kanaler...")
     
     try:
-        # Läs in XML-datan
         root = ET.fromstring(response.content)
-        
-        # Skapa ett nytt tomt XML-träd för din anpassade guide
         new_root = ET.Element("tv")
         if "generator-info-name" in root.attrib:
             new_root.set("generator-info-name", root.attrib["generator-info-name"])
             
-        # Hitta de kanal-IDn som matchar namnen i din textfil
         matched_channel_ids = set()
         
+        # Gå igenom alla kanaler i filen och se vilka som matchar dina namn
         for channel in root.findall("channel"):
             display_name = channel.find("display-name")
             if display_name is not None and display_name.text:
                 clean_name = display_name.text.lower().replace(" ", "")
-                # Om kanalnamnet finns i din lista, spara den och dess ID
                 if clean_name in wanted_channels:
                     new_root.append(channel)
                     matched_channel_ids.add(channel.get("id"))
         
-        # Gå igenom alla program och behåll bara de som hör till dina matchade kanaler
+        # Spara programmen för de matchade kanalerna
         program_count = 0
         for programme in root.findall("programme"):
             channel_id = programme.get("channel")
@@ -83,11 +79,9 @@ if __name__ == "__main__":
                 
         print(f"Matchade {len(matched_channel_ids)} kanaler med totalt {program_count} program.")
         
-        # Spara den nya slimmade guiden lokalt
         tree = ET.ElementTree(new_root)
         tree.write("guide.xml", encoding="utf-8", xml_declaration=True)
         
-        # Ladda upp till Dropbox
         upload_to_dropbox("guide.xml", "/guide.xml")
         
     except Exception as e:
