@@ -1,0 +1,27 @@
+name: Download and Upload EPG
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Körs automatiskt varje natt kl 04:00
+  workflow_dispatch: # Gör att du får en manuell "Run workflow"-knapp
+
+jobs:
+  run-epg-grabber:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo code
+      uses: actions/checkout@v4
+
+    - name: Install Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Execute EPG Script
+      env:
+        DROPBOX_TOKEN: ${{ secrets.DROPBOX_TOKEN }}
+      run: python get_epg.py
