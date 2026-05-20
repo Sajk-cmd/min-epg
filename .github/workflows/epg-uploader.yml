@@ -37,7 +37,8 @@ jobs:
     - name: Grab EPG for Sweden
       run: |
         cd epg-grabber
-        npm run grab -- --sites=tv24.se
+        # Vi pekar på din nya filtrerade fil istället för att låta den köra alla kanaler
+        npm run grab -- --channels=../my_channels.xml
 
     - name: Move guide to root
       run: |
