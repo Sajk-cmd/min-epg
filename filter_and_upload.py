@@ -46,7 +46,6 @@ if __name__ == "__main__":
         exit(1)
         
     if wanted_channels is None:
-        # Om kanaler.txt saknas, ladda bara upp originalfilen
         upload_to_dropbox(raw_file, "/guide.xml")
         exit(0)
         
@@ -60,26 +59,50 @@ if __name__ == "__main__":
         if "generator-info-name" in root.attrib:
             new_root.set("generator-info-name", root.attrib["generator-info-name"])
             
-        matched_channel_ids = set()
+        # Skapa en ordbok (dictionary) för att mappa både tv.nu-id och display-name
+        allowed_channel_ids = set()
+        channel_map = {} # Mappar det interna ID:t till det snygga namnet
         
-        # Sök efter matchande kanaler baserat på display-name
+        # 1. Hitta alla godkända kanaler
         for channel in root.findall("channel"):
+            channel_id = channel.get("id")
             display_name = channel.find("display-name")
+            
             if display_name is not None and display_name.text:
                 clean_name = display_name.text.lower().replace(" ", "")
                 if clean_name in wanted_channels:
                     new_root.append(channel)
-                    matched_channel_ids.add(channel.get("id"))
-        
-        # Spara programmen för de matchade kanalerna
+                    allowed_channel_ids.add(channel_id)
+                    # Spara även en rensad version av ID-strängen ifall programmen använder ett kortare ID
+                    short_id = channel_id.split("@")[0].lower() if "@" in channel_id else channel_id.lower()
+                    channel_map[short_id] = channel_id
+
+        # 2. Gå igenom alla program och matcha mot våra tillåtna kanaler
         program_count = 0
         for programme in root.findall("programme"):
-            channel_id = programme.get("channel")
-            if channel_id in matched_channel_ids:
+            prog_channel = programme.get("channel")
+            if not prog_channel:
+                continue
+                
+            prog_channel_clean = prog_channel.lower()
+            
+            # Kolla om programmets kanal-ID matchar direkt eller via vårt kortare ID
+            if prog_channel in allowed_channel_ids:
+                new_root.append(programme)
+                program_count += 1
+            elif prog_channel_clean in channel_map:
+                # Om programmet använder det korta ID:t (t.ex. 'svt1.se'), tvinga det att använda det fulla ID:t
+                programme.set("channel", channel_map[prog_channel_clean])
+                new_root.append(programme)
+                program_count += 1
+            elif prog_channel_clean.split(".")[0] in channel_map:
+                # Fallback för rent tv.nu-id (t.ex. 'svt1')
+                pure_id = prog_channel_clean.split(".")[0]
+                programme.set("channel", channel_map[pure_id])
                 new_root.append(programme)
                 program_count += 1
                 
-        print(f"Filtrering klar: Matchade {len(matched_channel_ids)} kanaler med totalt {program_count} program.")
+        print(f"Filtrering klar: Sparade {len(allowed_channel_ids)} kanaler med totalt {program_count} program.")
         
         new_tree = ET.ElementTree(new_root)
         new_tree.write(output_file, encoding="utf-8", xml_declaration=True)
