@@ -1,31 +1,46 @@
 import os
 import requests
 import xml.etree.ElementTree as ET
+import sys
 
-DROPBOX_TOKEN = os.environ.get("DROPBOX_TOKEN")
+# Hämta miljövariabler för Refresh Token-flödet
+REFRESH_TOKEN = os.environ.get("DROPBOX_REFRESH_TOKEN")
+APP_KEY = os.environ.get("DROPBOX_APP_KEY")
+APP_SECRET = os.environ.get("DROPBOX_APP_SECRET")
 
-def load_wanted_channels():
-    if not os.path.exists("kanaler.txt"):
-        print("Hittade inte kanaler.txt! Laddar upp hela guiden ofiltrerad...")
-        return None
-    with open("kanaler.txt", "r", encoding="utf-8") as f:
-        return [line.strip().lower().replace(" ", "") for line in f if line.strip()]
+def get_access_token():
+    """Hämtar en ny giltig access_token från Dropbox."""
+    if not all([REFRESH_TOKEN, APP_KEY, APP_SECRET]):
+        print("Fel: Saknar nödvändiga Dropbox-miljövariabler!")
+        sys.exit(1)
+        
+    url = "https://api.dropbox.com/oauth2/token"
+    params = {
+        "grant_type": "refresh_token",
+        "refresh_token": REFRESH_TOKEN,
+        "client_id": APP_KEY,
+        "client_secret": APP_SECRET
+    }
+    response = requests.post(url, data=params)
+    
+    if response.status_code != 200:
+        print(f"Fel vid hämtning av access_token: {response.text}")
+        sys.exit(1)
+        
+    return response.json()["access_token"]
 
 def upload_to_dropbox(local_file_path, dropbox_destination_path):
-    if not DROPBOX_TOKEN:
-        print("Dropbox Token saknas i GitHub Secrets!")
-        return False
-        
+    access_token = get_access_token()
     headers = {
-        "Authorization": f"Bearer {DROPBOX_TOKEN}",
-        "Dropbox-API-Arg": f'{{"path": "{dropbox_destination_path}","mode": "overwrite","autorename": false,"mute": false,"strict_conflict": false}}',
+        "Authorization": f"Bearer {access_token}",
+        "Dropbox-API-Arg": f'{{"path": "{dropbox_destination_path}","mode": "overwrite"}}',
         "Content-Type": "application/octet-stream"
     }
     
     print(f"Laddar upp {local_file_path} till Dropbox...")
     with open(local_file_path, "rb") as f:
         data = f.read()
-        
+    
     url = "https://content.dropboxapi.com/2/files/upload"
     response = requests.post(url, headers=headers, data=data)
     
@@ -37,56 +52,16 @@ def upload_to_dropbox(local_file_path, dropbox_destination_path):
         return False
 
 if __name__ == "__main__":
-    wanted_channels = load_wanted_channels()
-    raw_file = "guide_raw.xml"
-    output_file = "guide.xml"
+    # Eftersom du nu kör filtreringen redan i 'grab'-steget med my_channels.xml,
+    # så behöver vi bara ladda upp filen 'guide.xml' direkt.
+    raw_file = "guide.xml" 
     
     if not os.path.exists(raw_file):
-        print("Hittade ingen genererad guide_raw.xml från tv.nu!")
-        exit(1)
-        
-    if wanted_channels is None:
-        # Om kanaler.txt saknas, ladda bara upp originalfilen
-        upload_to_dropbox(raw_file, "/guide.xml")
-        exit(0)
-        
-    print(f"Filtrerar guiden för {len(wanted_channels)} önskade kanaler...")
+        print(f"Hittade inte {raw_file}! Avbryter.")
+        sys.exit(1)
     
-    try:
-        tree = ET.parse(raw_file)
-        root = tree.getroot()
-        
-        new_root = ET.Element("tv")
-        if "generator-info-name" in root.attrib:
-            new_root.set("generator-info-name", root.attrib["generator-info-name"])
-            
-        matched_channel_ids = set()
-        
-        # Sök efter matchande kanaler baserat på display-name
-        for channel in root.findall("channel"):
-            display_name = channel.find("display-name")
-            if display_name is not None and display_name.text:
-                clean_name = display_name.text.lower().replace(" ", "")
-                if clean_name in wanted_channels:
-                    new_root.append(channel)
-                    matched_channel_ids.add(channel.get("id"))
-        
-        # Spara programmen för de matchade kanalerna
-        program_count = 0
-        for programme in root.findall("programme"):
-            channel_id = programme.get("channel")
-            if channel_id in matched_channel_ids:
-                new_root.append(programme)
-                program_count += 1
-                
-        print(f"Filtrering klar: Matchade {len(matched_channel_ids)} kanaler med totalt {program_count} program.")
-        
-        new_tree = ET.ElementTree(new_root)
-        new_tree.write(output_file, encoding="utf-8", xml_declaration=True)
-        
-        # Ladda upp till Dropbox
-        upload_to_dropbox(output_file, "/guide.xml")
-        
-    except Exception as e:
-        print(f"Ett fel uppstod vid filtrering av XML: {e}")
-        exit(1)
+    # Ladda upp filen direkt till Dropbox
+    if upload_to_dropbox(raw_file, "/guide.xml"):
+        sys.exit(0)
+    else:
+        sys.exit(1)
