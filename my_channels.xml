@@ -1,6 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-     <channel site="mtel.ba" site_id="msat#ch-6-happy-tv" lang="bs" xmltv_id="">Happy TV</channel>
-  <channel site="mtel.ba" site_id="msat#ch-11-rtrs" lang="bs" xmltv_id="">RTRS</channel>
-  <channel site="mtel.ba" site_id="msat#ch-13-atv-hd" lang="bs" xmltv_id="">ATV HD</channel>
+  <channel site="tv24.se" site_id="svt1-hd" lang="sv" xmltv_id="">SVT1 HD SE</channel>
+  <channel site="tv24.se" site_id="svt2-hd" lang="sv" xmltv_id="">SVT2 HD SE</channel>
+  <channel site="tv24.se" site_id="tv3-hd" lang="sv" xmltv_id="">TV3 HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-hd" lang="sv" xmltv_id="">TV4 HD SE</channel>
+  <channel site="tv24.se" site_id="kanal-5-hd" lang="sv" xmltv_id="">Kanal 5 HD SE</channel>
+  <channel site="tv24.se" site_id="tv6-hd" lang="sv" xmltv_id="">TV6 HD SE</channel>
+  <channel site="tv24.se" site_id="sjuan-hd" lang="sv" xmltv_id="">Sjuan HD SE</channel>
+  <channel site="tv24.se" site_id="tv8-hd" lang="sv" xmltv_id="">TV8 HD SE</channel>
+  <channel site="tv24.se" site_id="kanal-9-hd" lang="sv" xmltv_id="">Kanal 9 HD SE</channel>
+  <channel site="tv24.se" site_id="tv10-hd" lang="sv" xmltv_id="">TV10 HD SE</channel>
+  <channel site="tv24.se" site_id="kanal-11-hd" lang="sv" xmltv_id="">Kanal 11 HD SE</channel>
+  <channel site="tv24.se" site_id="tv12-hd" lang="sv" xmltv_id="">TV12 HD SE</channel>
+  <channel site="tv24.se" site_id="kunskapskanalen-hd" lang="sv" xmltv_id="">Kunskapskanalen HD SE</channel>
+  <channel site="tv24.se" site_id="axess-tv" xmltv_id="AxessTV.se@SD">Axess TV SE</channel>
+  <channel site="tv24.se" site_id="bbc-nordic-hd" lang="sv" xmltv_id="">BBC Nordic HD SE</channel>
+  <channel site="tv24.se" site_id="discovery-channel-hd" lang="sv" xmltv_id="">Discovery Channel HD SE</channel>
+  <channel site="tv24.se" site_id="discovery-science" lang="sv" xmltv_id="">Discovery Science SE</channel>
+  <channel site="tv24.se" site_id="v-film-premiere-hd" lang="sv" xmltv_id="VFilmPremiere.se@SD">V Film Premiere HD SE</channel>
+  <channel site="tv24.se" site_id="v-film-hits-hd" lang="sv" xmltv_id="VFilmHits.se@SD">V Film Hits HD SE</channel>
+  <channel site="tv24.se" site_id="v-film-action-hd" lang="sv" xmltv_id="VFilmAction.se@SD">V Film Action HD SE</channel>
+  <channel site="tv24.se" site_id="v-film-family" lang="sv" xmltv_id="VFilmFamily.se@SD">V Film Family SE</channel>
+  <channel site="tv24.se" site_id="v-series-hd" lang="sv" xmltv_id="">V Series HD SE</channel>
+  <channel site="tv24.se" site_id="sf-kanalen" lang="sv" xmltv_id="SFkanalen.se@SD">SF Kanalen SE</channel>
+  <channel site="tv24.se" site_id="tv4-film" lang="sv" xmltv_id="TV4Film.se@SD">TV4 Film SE</channel>
+  <channel site="tv24.se" site_id="tv4-stars-hd" lang="sv" xmltv_id="">TV4 Stars HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-hits-hd" lang="sv" xmltv_id="">TV4 Hits HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-guld" lang="sv" xmltv_id="TV4Guld.se@SD">TV4 Guld SE</channel>
+  <channel site="tv24.se" site_id="skyshowtime-1" lang="sv" xmltv_id="SkyShowtime1.se@SD">SkyShowtime 1 SE</channel>
+  <channel site="tv24.se" site_id="skyshowtime-2" lang="sv" xmltv_id="SkyShowtime2.se@SD">SkyShowtime 2 SE</channel>
+  <channel site="tv24.se" site_id="tv4-fakta" lang="sv" xmltv_id="TV4Fakta.se@SD">TV4 Fakta SE</channel>
+  <channel site="tv24.se" site_id="godare" lang="sv" xmltv_id="Godare.se@SD">Godare SE</channel>
+  <channel site="tv24.se" site_id="id" lang="sv" xmltv_id="InvestigationDiscovery.se@SD">ID SE</channel>
+  <channel site="tv24.se" site_id="national-geographic-hd" lang="sv" xmltv_id="">National Geographic HD SE</channel>
+  <channel site="tv24.se" site_id="national-geographic-wild-hd" lang="sv" xmltv_id="">National Geographic Wild HD SE</channel>
+  <channel site="tv24.se" site_id="history-hd" lang="sv" xmltv_id="">History HD SE</channel>
+  <channel site="tv24.se" site_id="h2-hd" lang="sv" xmltv_id="">H2 HD SE</channel>
+  <channel site="tv24.se" site_id="animal-planet-hd" lang="sv" xmltv_id="">Animal Planet HD SE</channel>
+  <channel site="tv24.se" site_id="tlc-hd" lang="sv" xmltv_id="">TLC HD SE</channel>
+  <channel site="tv24.se" site_id="horse-country" lang="en" xmltv_id="HorseCountryTV.uk@SD">Horse Country SE</channel>
+  <channel site="tv24.se" site_id="viasat-nature-hd" lang="sv" xmltv_id="">Viasat Nature HD SE</channel>
+  <channel site="tv24.se" site_id="viasat-history-hd" lang="sv" xmltv_id="">Viasat History HD Finland SE</channel>
+  <channel site="tv24.se" site_id="viasat-explore-hd" lang="sv" xmltv_id="">Viasat Explore HD SE</channel>
+  <channel site="tv24.se" site_id="travel-channel-hd" lang="sv" xmltv_id="">Travel Channel HD SE</channel>
+  <channel site="tv24.se" site_id="al-jazeera-hd" lang="sv" xmltv_id="">Al Jazeera HD SE</channel>
+  <channel site="tv24.se" site_id="cnn-international-hd" lang="sv" xmltv_id="">CNN International HD SE</channel>
+  <channel site="tv24.se" site_id="bbc-news" xmltv_id="BBCNews.uk@SD">BBC News UK SE</channel>
+  <channel site="tv24.se" site_id="sky-news" xmltv_id="SkyNews.uk@SD">Sky News UK SE</channel>
+  <channel site="tv24.se" site_id="tv4-fotboll-hd" lang="sv" xmltv_id="">TV4 Fotboll HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-hockey-hd" lang="sv" xmltv_id="">TV4 Hockey HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-sportkanalen-hd" lang="sv" xmltv_id="">TV4 Sportkanalen HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-motor-hd" lang="sv" xmltv_id="">TV4 Motor HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-tennis-hd" lang="sv" xmltv_id="">TV4 Tennis HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-1-hd" lang="sv" xmltv_id="">TV4 Sport Live 1 HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-2-hd" lang="sv" xmltv_id="">TV4 Sport Live 2 HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-3-hd" lang="sv" xmltv_id="">TV4 Sport Live 3 HD SE</channel>
+  <channel site="tv24.se" site_id="tv4-sport-live-4-hd" lang="sv" xmltv_id="">TV4 Sport Live 4 HD SE</channel>
+  <channel site="tv24.se" site_id="eurosport-1-hd" lang="sv" xmltv_id="">Eurosport 1 HD SE</channel>
+  <channel site="tv24.se" site_id="eurosport-2-hd" lang="sv" xmltv_id="">Eurosport 2 HD SE</channel>
+  <channel site="tv24.se" site_id="v-sport-extra-hd" lang="sv" xmltv_id="">V Sport Extra HD SE</channel>
+  <channel site="tv24.se" site_id="v-sport-1-hd" lang="sv" xmltv_id="">V Sport 1 HD SE</channel>
+  <channel site="tv24.se" site_id="v-sport-ultra-hd" lang="sv" xmltv_id="VSportUltraHD.se@SD">V Sport Ultra HD SE</channel>
+  <channel site="tv24.se" site_id="v-sport-premium-hd" lang="sv" xmltv_id="VSportPremium.se@SD">V Sport Premium HD SE</channel>
+  <channel site="tv24.se" site_id="v-sport-fotboll-hd" lang="sv" xmltv_id="VSportFootball.se@SD">V Sport Fotboll HD SE</channel>
+  <channel site="tv24.se" site_id="v-sport-vinter" lang="sv" xmltv_id="VSportVinter.se@SD">V Sport Vinter SE</channel>
+  <channel site="tv24.se" site_id="v-sport-motor-hd" lang="sv" xmltv_id="VSportMotor.se@SD">V Sport Motor HD SE</channel>
+  <channel site="tv24.se" site_id="v-sport-golf-hd" lang="sv" xmltv_id="VSportGolf.se@SD">V Sport Golf HD SE</channel>
+  <channel site="tv24.se" site_id="viaplay-sport" lang="sv" xmltv_id="">Viaplay Sport SE</channel>
+  <channel site="tv24.se" site_id="atg-live" xmltv_id="ATGLive.se@SD">ATG Live SE</channel>
+  <channel site="tv24.se" site_id="svt-barn" xmltv_id="SVTBarn.se@SD">SVT Barn SE</channel>
+  <channel site="tv24.se" site_id="cartoon-network" xmltv_id="CartoonNetworkWesternEurope.uk@Sweden">Cartoon Network SE</channel>
+  <channel site="tv24.se" site_id="disney-channel-hd" lang="sv" xmltv_id="">Disney Channel HD SE</channel>
+  <channel site="tv24.se" site_id="nick-jr-hd" lang="sv" xmltv_id="">Nick Jr. HD SE</channel>
+  <channel site="tv24.se" site_id="nicktoons" lang="sv" xmltv_id="NicktoonsScandinavia.nl@SD">Nicktoons SE</channel>
+  <channel site="tv24.se" site_id="nickelodeon-hd" lang="sv" xmltv_id="">Nickelodeon HD SE</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-15-bht" lang="bs" xmltv_id="">BHT 1 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-225-ftv" lang="bs" xmltv_id="">FTV BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-37-face-tv" lang="bs" xmltv_id="">FACE TV BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-26-o-kanal" lang="bs" xmltv_id="">O Kanal HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-13-atv-hd" lang="bs" xmltv_id="">ATV HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-263-hayat-hd" lang="bs" xmltv_id="">Hayat HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-83-hayat-plus" lang="bs" xmltv_id="">Hayat 2 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-obn-hd" lang="bs" xmltv_id="">OBN HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-11-rtrs" lang="bs" xmltv_id="">RTRS BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-18-rtrs-plus" lang="bs" xmltv_id="">RTRS Plus BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-289-bn-hd" lang="bs" xmltv_id="">BN HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-14-nova-bh-hd" lang="bs" xmltv_id="">Nova BH HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-288-pink-bh" lang="bs" xmltv_id="">Pink BH BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-25-al-jazeera-balkans" lang="bs" xmltv_id="">AL Jazeera Balkans BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-93-hema-tv" lang="bs" xmltv_id="">Hema TV BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-78-alfa-tv" lang="bs" xmltv_id="">ALFA TV BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-17-tv-k3-hd" lang="bs" xmltv_id="">TV K3 HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-rtv-zenica-hd" lang="bs" xmltv_id="">RTV Zenica HD BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274913832105" lang="hr" xmltv_id="">HRT 1 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344331" lang="hr" xmltv_id="">HRT 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276771368111" lang="hr" xmltv_id="">HRT 3 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344339" lang="hr" xmltv_id="">HRT 4 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274913832109" lang="hr" xmltv_id="">RTL BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344334" lang="hr" xmltv_id="">RTL 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344347" lang="hr" xmltv_id="">RTL Crime BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276771368143" lang="hr" xmltv_id="">RTL Passion BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344350" lang="hr" xmltv_id="">National Geographic BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344352" lang="hr" xmltv_id="">Nat Geo Wild BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344354" lang="hr" xmltv_id="">History BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784233" lang="hr" xmltv_id="">History 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784232" lang="hr" xmltv_id="">Viasat Nature BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344357" lang="hr" xmltv_id="">Viasat Explore BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="435380776371" lang="hr" xmltv_id="">Viasat History BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276771368119" lang="hr" xmltv_id="">Crime Investigation BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282239016114" lang="hr" xmltv_id="">E! Entertainment BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282238504006" lang="hr" xmltv_id="">24Kitchen BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856271" lang="hr" xmltv_id="">Da Vinci BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274914856086" lang="hr" xmltv_id="">Nova TV BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276771368109" lang="hr" xmltv_id="">Doma TV BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344345" lang="hr" xmltv_id="">N1 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="343759399964" lang="hr" xmltv_id="">Z1 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="485655592331" lang="hr" xmltv_id="">AMC BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784251" lang="hr" xmltv_id="">HBO BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276771368141" lang="hr" xmltv_id="">HBO 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784254" lang="hr" xmltv_id="">HBO 3 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344388" lang="hr" xmltv_id="">Cinemax BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784259" lang="hr" xmltv_id="">Cinemax 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344379" lang="hr" xmltv_id="">CineStar TV 1 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="342160935987" lang="hr" xmltv_id="">Cinestar TV 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276795432141" lang="hr" xmltv_id="">Cinestar TV Fantasy BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="346586664198" lang="hr" xmltv_id="">Cinestar TV Comedy BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856300" lang="hr" xmltv_id="">CineStar TV Action BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856304" lang="hr" xmltv_id="">Cinestar TV Premiere 1 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856295" lang="hr" xmltv_id="">STAR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856280" lang="hr" xmltv_id="">STAR Crime BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344385" lang="hr" xmltv_id="">STAR Movies BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276782632042" lang="hr" xmltv_id="">M1 Gold BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276790824378" lang="hr" xmltv_id="">M1 Film BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276796967984" lang="hr" xmltv_id="">Kino TV BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276771368146" lang="hr" xmltv_id="">Epic Drama BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784220" lang="hr" xmltv_id="">Pickbox TV BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="426077223999" lang="hr" xmltv_id="">IDJ TV BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282239016172" lang="hr" xmltv_id="">DM SAT BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274913832116" lang="hr" xmltv_id="">CMC - Croatian Music Channel BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282239016175" lang="hr" xmltv_id="">Jugoton BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="338256936368" lang="hr" xmltv_id="">MTV 80s BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274914856088" lang="hr" xmltv_id="">Arenasport 1 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282238503965" lang="hr" xmltv_id="">Arenasport 2 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282238503966" lang="hr" xmltv_id="">Arenasport 3 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282238503968" lang="hr" xmltv_id="">Arenasport 4 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282238503971" lang="hr" xmltv_id="">Arenasport 6 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282235944358" lang="hr" xmltv_id="">Arenasport 5 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282235944384" lang="hr" xmltv_id="">Arenasport 7 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282235944385" lang="hr" xmltv_id="">Arenasport 8 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282237992142" lang="hr" xmltv_id="">Arenasport 9 HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="311616552052" lang="hr" xmltv_id="">CROMAXSport 1 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="311620648169" lang="hr" xmltv_id="">CROMAXSport 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="426073640307" lang="hr" xmltv_id="">Nickelodeon HR BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="342145064331" lang="hr" xmltv_id="">Disney Channel BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344366" lang="hr" xmltv_id="">Baby TV BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344376" lang="hr" xmltv_id="">Nicktoons BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784228" lang="hr" xmltv_id="">RTL Kockica BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784241" lang="hr" xmltv_id="">Cartoon Network BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-125-animal-planet" lang="bs" xmltv_id="">Animal Planet BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-3-rts-1" lang="bs" xmltv_id="">RTS 1 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-20-rts-2" lang="bs" xmltv_id="">RTS 2 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-327-rts-3" lang="bs" xmltv_id="">RTS 3 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-49-rts-trezor" lang="bs" xmltv_id="">RTS Trezor BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-45-rts-zivot" lang="bs" xmltv_id="">RTS Život BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-112-axn-spin" lang="bs" xmltv_id="">AXN Spin BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-4-pink" lang="bs" xmltv_id="">Pink BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-358-prva" lang="bs" xmltv_id="">Prva BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-361-prva-world" lang="bs" xmltv_id="">Prva World BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-362-prva-kick" lang="bs" xmltv_id="">Prva Kick BLKN</channel>  
+  <channel site="mtel.ba" site_id="iptv#ch-364-prva-files" lang="bs" xmltv_id="">Prva Files BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-359-b92" lang="bs" xmltv_id="">B92 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-6-happy-tv" lang="bs" xmltv_id="">Happy TV BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-419-kurir-tv-hd" lang="bs" xmltv_id="">Kurir TV HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-66-sos-kanal" lang="bs" xmltv_id="">SOS Kanal BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-293-superstar-tv" lang="bs" xmltv_id="">Superstar BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-42-pink-m" lang="bs" xmltv_id="">PINK M BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-217-pink-plus" lang="bs" xmltv_id="">PINK PLUS BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-146-pink-comedy" lang="bs" xmltv_id="">Pink Comedy BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-131-pink-action" lang="bs" xmltv_id="">Pink Action BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-215-pink-world" lang="bs" xmltv_id="">PINK WORLD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-154-pink-western" lang="bs" xmltv_id="">Pink Western BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-136-pink-crime-mystery" lang="bs" xmltv_id="">Pink Crime Mystery BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-133-pink-thriller" lang="bs" xmltv_id="">Pink Thriller BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-149-pink-sci-fi-fantasy" lang="bs" xmltv_id="">Pink Sci-Fi Fantasy BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-145-pink-movies" lang="bs" xmltv_id="">Pink Movies BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-159-pink-horror" lang="bs" xmltv_id="">Pink Horror BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-142-pink-pedia" lang="bs" xmltv_id="">PINK PEDIA BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-165-pink-serije" lang="bs" xmltv_id="">Pink Serije BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-161-pink-soap" lang="bs" xmltv_id="">Pink Soap BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-156-pink-classic" lang="bs" xmltv_id="">Pink Classic BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-126-pink-premium" lang="bs" xmltv_id="">Pink Premium BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-218-pink-extra" lang="bs" xmltv_id="">PINK EXTRA BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-1-pink-family" lang="bs" xmltv_id="">Pink Family BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-155-pink-kuvar" lang="bs" xmltv_id="">Pink Kuvar BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-216-pink-show" lang="bs" xmltv_id="">PINK SHOW BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-150-pink-style" lang="bs" xmltv_id="">Pink Style BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-143-pink-romance" lang="bs" xmltv_id="">Pink Romance BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-214-pink-zabava" lang="bs" xmltv_id="">PINK ZABAVA BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-219-ha-ha" lang="bs" xmltv_id="">HA HA BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-220-lol" lang="bs" xmltv_id="">LOL BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-221-pink-reality" lang="bs" xmltv_id="">Pink Reality BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-222-hayat-music" lang="bs" xmltv_id="">Hayat Music BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-472-bn-music-hd" lang="bs" xmltv_id="">BN Music HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-174-pink-music" lang="bs" xmltv_id="">Pink Music BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-176-pink-music-2" lang="bs" xmltv_id="">Pink Music 2 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-180-pink-hits" lang="bs" xmltv_id="">PINK HITS BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-185-pink-hits-2" lang="bs" xmltv_id="">Pink Hits 2 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-209-pink-folk" lang="bs" xmltv_id="">Pink Folk BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-203-pink-folk-2" lang="bs" xmltv_id="">PINK FOLK 2 BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-178-pink-koncert" lang="bs" xmltv_id="">PINK KONCERT BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-48-rts-kolo" lang="bs" xmltv_id="">RTS Kolo BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-arena-premium-1-hd" lang="bs" xmltv_id="">Arena Premium 1 HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-arena-premium-2-hd" lang="bs" xmltv_id="">Arena Premium 2 HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-arena-premium-3-hd" lang="bs" xmltv_id="">Arena Premium 3 HD BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-92-pink-kids" lang="bs" xmltv_id="">Pink Kids BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-89-minimax" lang="bs" xmltv_id="">Minimax BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-100-hayatovci" lang="bs" xmltv_id="">HAYATOVCI BLKN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-91-pink-super-kids" lang="bs" xmltv_id="">Pink Super Kids BLKN</channel>
 </channels>
