@@ -1,77 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="tv24.se" site_id="svt1-hd" lang="sv" xmltv_id="">SVT1 HD SE</channel>
-  <channel site="tv24.se" site_id="svt2-hd" lang="sv" xmltv_id="">SVT2 HD SE</channel>
-  <channel site="tv24.se" site_id="tv3-hd" lang="sv" xmltv_id="">TV3 HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-hd" lang="sv" xmltv_id="">TV4 HD SE</channel>
-  <channel site="tv24.se" site_id="kanal-5-hd" lang="sv" xmltv_id="">Kanal 5 HD SE</channel>
-  <channel site="tv24.se" site_id="tv6-hd" lang="sv" xmltv_id="">TV6 HD SE</channel>
-  <channel site="tv24.se" site_id="sjuan-hd" lang="sv" xmltv_id="">Sjuan HD SE</channel>
-  <channel site="tv24.se" site_id="tv8-hd" lang="sv" xmltv_id="">TV8 HD SE</channel>
-  <channel site="tv24.se" site_id="kanal-9-hd" lang="sv" xmltv_id="">Kanal 9 HD SE</channel>
-  <channel site="tv24.se" site_id="tv10-hd" lang="sv" xmltv_id="">TV10 HD SE</channel>
-  <channel site="tv24.se" site_id="kanal-11-hd" lang="sv" xmltv_id="">Kanal 11 HD SE</channel>
-  <channel site="tv24.se" site_id="tv12-hd" lang="sv" xmltv_id="">TV12 HD SE</channel>
-  <channel site="tv24.se" site_id="kunskapskanalen-hd" lang="sv" xmltv_id="">Kunskapskanalen HD SE</channel>
-  <channel site="tv24.se" site_id="axess-tv" xmltv_id="AxessTV.se@SD">Axess TV SE</channel>
-  <channel site="tv24.se" site_id="bbc-nordic-hd" lang="sv" xmltv_id="">BBC Nordic HD SE</channel>
-  <channel site="tv24.se" site_id="discovery-channel-hd" lang="sv" xmltv_id="">Discovery Channel HD SE</channel>
-  <channel site="tv24.se" site_id="discovery-science" lang="sv" xmltv_id="">Discovery Science SE</channel>
-  <channel site="tv24.se" site_id="v-film-premiere-hd" lang="sv" xmltv_id="VFilmPremiere.se@SD">V Film Premiere HD SE</channel>
-  <channel site="tv24.se" site_id="v-film-hits-hd" lang="sv" xmltv_id="VFilmHits.se@SD">V Film Hits HD SE</channel>
-  <channel site="tv24.se" site_id="v-film-action-hd" lang="sv" xmltv_id="VFilmAction.se@SD">V Film Action HD SE</channel>
-  <channel site="tv24.se" site_id="v-film-family" lang="sv" xmltv_id="VFilmFamily.se@SD">V Film Family SE</channel>
-  <channel site="tv24.se" site_id="v-series-hd" lang="sv" xmltv_id="">V Series HD SE</channel>
-  <channel site="tv24.se" site_id="sf-kanalen" lang="sv" xmltv_id="SFkanalen.se@SD">SF Kanalen SE</channel>
-  <channel site="tv24.se" site_id="tv4-film" lang="sv" xmltv_id="TV4Film.se@SD">TV4 Film SE</channel>
-  <channel site="tv24.se" site_id="tv4-stars-hd" lang="sv" xmltv_id="">TV4 Stars HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-hits-hd" lang="sv" xmltv_id="">TV4 Hits HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-guld" lang="sv" xmltv_id="TV4Guld.se@SD">TV4 Guld SE</channel>
-  <channel site="tv24.se" site_id="skyshowtime-1" lang="sv" xmltv_id="SkyShowtime1.se@SD">SkyShowtime 1 SE</channel>
-  <channel site="tv24.se" site_id="skyshowtime-2" lang="sv" xmltv_id="SkyShowtime2.se@SD">SkyShowtime 2 SE</channel>
-  <channel site="tv24.se" site_id="tv4-fakta" lang="sv" xmltv_id="TV4Fakta.se@SD">TV4 Fakta SE</channel>
-  <channel site="tv24.se" site_id="godare" lang="sv" xmltv_id="Godare.se@SD">Godare SE</channel>
-  <channel site="tv24.se" site_id="id" lang="sv" xmltv_id="InvestigationDiscovery.se@SD">ID SE</channel>
-  <channel site="tv24.se" site_id="national-geographic-hd" lang="sv" xmltv_id="">National Geographic HD SE</channel>
-  <channel site="tv24.se" site_id="national-geographic-wild-hd" lang="sv" xmltv_id="">National Geographic Wild HD SE</channel>
-  <channel site="tv24.se" site_id="history-hd" lang="sv" xmltv_id="">History HD SE</channel>
-  <channel site="tv24.se" site_id="h2-hd" lang="sv" xmltv_id="">H2 HD SE</channel>
-  <channel site="tv24.se" site_id="animal-planet-hd" lang="sv" xmltv_id="">Animal Planet HD SE</channel>
-  <channel site="tv24.se" site_id="tlc-hd" lang="sv" xmltv_id="">TLC HD SE</channel>
-  <channel site="tv24.se" site_id="horse-country" lang="en" xmltv_id="HorseCountryTV.uk@SD">Horse Country SE</channel>
-  <channel site="tv24.se" site_id="viasat-nature-hd" lang="sv" xmltv_id="">Viasat Nature HD SE</channel>
-  <channel site="tv24.se" site_id="viasat-history-hd" lang="sv" xmltv_id="">Viasat History HD Finland SE</channel>
-  <channel site="tv24.se" site_id="viasat-explore-hd" lang="sv" xmltv_id="">Viasat Explore HD SE</channel>
-  <channel site="tv24.se" site_id="travel-channel-hd" lang="sv" xmltv_id="">Travel Channel HD SE</channel>
-  <channel site="tv24.se" site_id="al-jazeera-hd" lang="sv" xmltv_id="">Al Jazeera HD SE</channel>
-  <channel site="tv24.se" site_id="cnn-international-hd" lang="sv" xmltv_id="">CNN International HD SE</channel>
-  <channel site="tv24.se" site_id="bbc-news" xmltv_id="BBCNews.uk@SD">BBC News UK SE</channel>
-  <channel site="tv24.se" site_id="sky-news" xmltv_id="SkyNews.uk@SD">Sky News UK SE</channel>
-  <channel site="tv24.se" site_id="tv4-fotboll-hd" lang="sv" xmltv_id="">TV4 Fotboll HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-hockey-hd" lang="sv" xmltv_id="">TV4 Hockey HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-sportkanalen-hd" lang="sv" xmltv_id="">TV4 Sportkanalen HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-motor-hd" lang="sv" xmltv_id="">TV4 Motor HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-tennis-hd" lang="sv" xmltv_id="">TV4 Tennis HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-sport-live-1-hd" lang="sv" xmltv_id="">TV4 Sport Live 1 HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-sport-live-2-hd" lang="sv" xmltv_id="">TV4 Sport Live 2 HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-sport-live-3-hd" lang="sv" xmltv_id="">TV4 Sport Live 3 HD SE</channel>
-  <channel site="tv24.se" site_id="tv4-sport-live-4-hd" lang="sv" xmltv_id="">TV4 Sport Live 4 HD SE</channel>
-  <channel site="tv24.se" site_id="eurosport-1-hd" lang="sv" xmltv_id="">Eurosport 1 HD SE</channel>
-  <channel site="tv24.se" site_id="eurosport-2-hd" lang="sv" xmltv_id="">Eurosport 2 HD SE</channel>
-  <channel site="tv24.se" site_id="v-sport-extra-hd" lang="sv" xmltv_id="">V Sport Extra HD SE</channel>
-  <channel site="tv24.se" site_id="v-sport-1-hd" lang="sv" xmltv_id="">V Sport 1 HD SE</channel>
-  <channel site="tv24.se" site_id="v-sport-ultra-hd" lang="sv" xmltv_id="VSportUltraHD.se@SD">V Sport Ultra HD SE</channel>
-  <channel site="tv24.se" site_id="v-sport-premium-hd" lang="sv" xmltv_id="VSportPremium.se@SD">V Sport Premium HD SE</channel>
-  <channel site="tv24.se" site_id="v-sport-fotboll-hd" lang="sv" xmltv_id="VSportFootball.se@SD">V Sport Fotboll HD SE</channel>
-  <channel site="tv24.se" site_id="v-sport-vinter" lang="sv" xmltv_id="VSportVinter.se@SD">V Sport Vinter SE</channel>
-  <channel site="tv24.se" site_id="v-sport-motor-hd" lang="sv" xmltv_id="VSportMotor.se@SD">V Sport Motor HD SE</channel>
-  <channel site="tv24.se" site_id="v-sport-golf-hd" lang="sv" xmltv_id="VSportGolf.se@SD">V Sport Golf HD SE</channel>
-  <channel site="tv24.se" site_id="viaplay-sport" lang="sv" xmltv_id="">Viaplay Sport SE</channel>
-  <channel site="tv24.se" site_id="atg-live" xmltv_id="ATGLive.se@SD">ATG Live SE</channel>
-  <channel site="tv24.se" site_id="svt-barn" xmltv_id="SVTBarn.se@SD">SVT Barn SE</channel>
-  <channel site="tv24.se" site_id="cartoon-network" xmltv_id="CartoonNetworkWesternEurope.uk@Sweden">Cartoon Network SE</channel>
-  <channel site="tv24.se" site_id="disney-channel-hd" lang="sv" xmltv_id="">Disney Channel HD SE</channel>
-  <channel site="tv24.se" site_id="nick-jr-hd" lang="sv" xmltv_id="">Nick Jr. HD SE</channel>
-  <channel site="tv24.se" site_id="nicktoons" lang="sv" xmltv_id="NicktoonsScandinavia.nl@SD">Nicktoons SE</channel>
-  <channel site="tv24.se" site_id="nickelodeon-hd" lang="sv" xmltv_id="">Nickelodeon HD SE</channel>
- </channels>
+  <channel site="mtel.ba" site_id="iptv#ch-15-bht" lang="bs" xmltv_id="">BHT 1</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-25-al-jazeera-balkans" lang="bs" xmltv_id="">AL Jazeera Balkans</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-19-rts-svet" lang="bs" xmltv_id="">RTS Svet</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-20-rts-2" lang="bs" xmltv_id="">RTS 2</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-21-rts-nauka-hd" lang="bs" xmltv_id="">RTS Nauka HD</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-22-rtv-1" lang="bs" xmltv_id="">RTV 1</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-25-al-jazeera-balkans" lang="bs" xmltv_id="">AL Jazeera Balkans</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-26-o-kanal" lang="bs" xmltv_id="">O Kanal HD</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-29-kcn" lang="bs" xmltv_id="">K:CN</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-32-hrt-3" lang="bs" xmltv_id="">HRT 3</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-33-vikom" lang="bs" xmltv_id="">VIKOM</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-34-rtl-hd" lang="bs" xmltv_id="">RTL HD</channel>
+  <channel site="mtel.ba" site_id="iptv#ch-35-hayat-tv" lang="bs" xmltv_id="">HAYAT TV</channel>
+</channels>
