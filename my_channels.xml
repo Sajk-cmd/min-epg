@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="mtel.ba" site_id="iptv#ch-15-bht" lang="bs" xmltv_id="">BHT 1</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-25-al-jazeera-balkans" lang="bs" xmltv_id="">AL Jazeera Balkans</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-19-rts-svet" lang="bs" xmltv_id="">RTS Svet</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-20-rts-2" lang="bs" xmltv_id="">RTS 2</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-21-rts-nauka-hd" lang="bs" xmltv_id="">RTS Nauka HD</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-22-rtv-1" lang="bs" xmltv_id="">RTV 1</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-25-al-jazeera-balkans" lang="bs" xmltv_id="">AL Jazeera Balkans</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-26-o-kanal" lang="bs" xmltv_id="">O Kanal HD</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-29-kcn" lang="bs" xmltv_id="">K:CN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-32-hrt-3" lang="bs" xmltv_id="">HRT 3</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-33-vikom" lang="bs" xmltv_id="">VIKOM</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-34-rtl-hd" lang="bs" xmltv_id="">RTL HD</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-35-hayat-tv" lang="bs" xmltv_id="">HAYAT TV</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274913832116" lang="hr" xmltv_id="">CMC - Croatian Music Channel</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274914856086" lang="hr" xmltv_id="">Nova TV</channel>
 </channels>
