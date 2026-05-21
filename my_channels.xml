@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274913832116" lang="hr" xmltv_id="">CMC - Croatian Music Channel</channel>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274914856086" lang="hr" xmltv_id="">Nova TV</channel>
+   <channel site="mts.rs" site_id="hayat_music" lang="bs" xmltv_id="">Hayat Music Box</channel>
+  <channel site="mts.rs" site_id="hayat_plus" lang="bs" xmltv_id="">Hayat 2</channel>
+  <channel site="mts.rs" site_id="hayatovci" lang="bs" xmltv_id="">Hayatovci</channel>
 </channels>
