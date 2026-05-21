@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-   <channel site="mts.rs" site_id="hayat_music" lang="bs" xmltv_id="">Hayat Music Box</channel>
-  <channel site="mts.rs" site_id="hayat_plus" lang="bs" xmltv_id="">Hayat 2</channel>
-  <channel site="mts.rs" site_id="hayatovci" lang="bs" xmltv_id="">Hayatovci</channel>
+     <channel site="mtel.ba" site_id="msat#ch-6-happy-tv" lang="bs" xmltv_id="">Happy TV</channel>
+  <channel site="mtel.ba" site_id="msat#ch-11-rtrs" lang="bs" xmltv_id="">RTRS</channel>
+  <channel site="mtel.ba" site_id="msat#ch-13-atv-hd" lang="bs" xmltv_id="">ATV HD</channel>
 </channels>
