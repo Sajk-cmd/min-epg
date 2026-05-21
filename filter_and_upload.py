@@ -1,15 +1,13 @@
 import os
 import requests
-import xml.etree.ElementTree as ET
 import sys
 
-# Hämta miljövariabler för Refresh Token-flödet
+# Hämta miljövariabler
 REFRESH_TOKEN = os.environ.get("DROPBOX_REFRESH_TOKEN")
 APP_KEY = os.environ.get("DROPBOX_APP_KEY")
 APP_SECRET = os.environ.get("DROPBOX_APP_SECRET")
 
 def get_access_token():
-    """Hämtar en ny giltig access_token från Dropbox."""
     if not all([REFRESH_TOKEN, APP_KEY, APP_SECRET]):
         print("Fel: Saknar nödvändiga Dropbox-miljövariabler!")
         sys.exit(1)
@@ -22,11 +20,9 @@ def get_access_token():
         "client_secret": APP_SECRET
     }
     response = requests.post(url, data=params)
-    
     if response.status_code != 200:
         print(f"Fel vid hämtning av access_token: {response.text}")
         sys.exit(1)
-        
     return response.json()["access_token"]
 
 def upload_to_dropbox(local_file_path, dropbox_destination_path):
@@ -41,8 +37,7 @@ def upload_to_dropbox(local_file_path, dropbox_destination_path):
     with open(local_file_path, "rb") as f:
         data = f.read()
     
-    url = "https://content.dropboxapi.com/2/files/upload"
-    response = requests.post(url, headers=headers, data=data)
+    response = requests.post("https://content.dropboxapi.com/2/files/upload", headers=headers, data=data)
     
     if response.status_code == 200:
         print("Guiden har laddats upp till din Dropbox!")
@@ -52,15 +47,10 @@ def upload_to_dropbox(local_file_path, dropbox_destination_path):
         return False
 
 if __name__ == "__main__":
-    # Eftersom du nu kör filtreringen redan i 'grab'-steget med my_channels.xml,
-    # så behöver vi bara ladda upp filen 'guide.xml' direkt.
     raw_file = "guide.xml" 
-    
     if not os.path.exists(raw_file):
         print(f"Hittade inte {raw_file}! Avbryter.")
         sys.exit(1)
-    
-    # Ladda upp filen direkt till Dropbox
     if upload_to_dropbox(raw_file, "/guide.xml"):
         sys.exit(0)
     else:
