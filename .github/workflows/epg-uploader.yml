@@ -2,13 +2,12 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Körs automatiskt varje natt kl 03:00 UTC
-  workflow_dispatch: # Gör att du kan starta uppdateringen manuellt med en knapp
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 jobs:
   grab-epg:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -18,7 +17,7 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Setup Python (för filtrering och Dropbox)
+    - name: Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
@@ -34,19 +33,16 @@ jobs:
         cd epg-grabber
         npm install
 
-    - name: Grab EPG for Sweden
+    - name: Grab EPG
       run: |
         cd epg-grabber
-        # Vi pekar på din nya filtrerade fil istället för att låta den köra alla kanaler
         npm run grab -- --channels=../my_channels.xml
 
     - name: Move guide to root
       run: |
-        mv epg-grabber/guide.xml ./guide_raw.xml
+        mv epg-grabber/guide.xml ./guide.xml
 
     - name: Filter and Upload to Dropbox
-      env:
-- name: Filter and Upload to Dropbox
       env:
         DROPBOX_REFRESH_TOKEN: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
         DROPBOX_APP_KEY: ${{ secrets.DROPBOX_APP_KEY }}
