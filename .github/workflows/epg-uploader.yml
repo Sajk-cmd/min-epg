@@ -3,6 +3,7 @@ name: Update EPG
 on:
   schedule:
     - cron: '0 3 * * *'
+      timezone: 'Europe/Stockholm'
   workflow_dispatch:
 
 jobs:
