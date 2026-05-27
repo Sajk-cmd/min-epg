@@ -233,18 +233,6 @@
   <channel site="epg.telemach.ba" site_id="655" lang="hr" xmltv_id="">TV Sarajevo HD</channel>
   <channel site="epg.telemach.ba" site_id="1852" lang="hr" xmltv_id="">Eurosport 1 HD BLKN</channel>
   <channel site="epg.telemach.ba" site_id="1505" lang="hr" xmltv_id="">Eurosport 2 HD BLKN</channel>
-  <channel site="tvarenasport.com" site_id="01" lang="sr" xmltv_id="">Arena Sport 1 Serbia</channel>
-  <channel site="tvarenasport.com" site_id="02" lang="sr" xmltv_id="">Arena Sport 2 Serbia</channel>
-  <channel site="tvarenasport.com" site_id="03" lang="sr" xmltv_id="">Arena Sport 3 Serbia</channel>
-  <channel site="tvarenasport.com" site_id="05" lang="sr" xmltv_id="">Arena Sport 5 Serbia</channel>
-  <channel site="epg.telemach.ba" site_id="18" lang="hr" xmltv_id="">SK HD BLKN</channel>
-  <channel site="epg.telemach.ba" site_id="67" lang="hr" xmltv_id="">SK 2 HD BLKN</channel>
-  <channel site="epg.telemach.ba" site_id="68" lang="hr" xmltv_id="">SK 3 HD BLKN</channel>
-  <channel site="epg.telemach.ba" site_id="69" lang="hr" xmltv_id="">SK 4 HD BLKN</channel>
-  <channel site="epg.telemach.ba" site_id="1142" lang="hr" xmltv_id="">SK 5 HD BLKN</channel>
-  <channel site="epg.telemach.ba" site_id="1143" lang="hr" xmltv_id="">SK 6 HD BLKN</channel>
-  <channel site="epg.telemach.ba" site_id="1851" lang="hr" xmltv_id="">Nova Sport HD BLKN</channel>
-  <channel site="epg.telemach.ba" site_id="73" lang="hr" xmltv_id="">SK Golf HD BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696524328080" lang="hr" xmltv_id="">SK1 </channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696528936296" lang="hr" xmltv_id="">SK2 </channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696530472226" lang="hr" xmltv_id="">SK3 </channel>
