@@ -85,12 +85,12 @@
   <channel site="mtel.ba" site_id="iptv#ch-11-rtrs" lang="bs" xmltv_id="">RTRS BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-18-rtrs-plus" lang="bs" xmltv_id="">RTRS Plus BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-289-bn-hd" lang="bs" xmltv_id="">BN HD BLKN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-14-nova-bh-hd" lang="bs" xmltv_id="">Nova BH HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="640" lang="hr" xmltv_id="">Nova BH HD BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-288-pink-bh" lang="bs" xmltv_id="">Pink BH BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-93-hema-tv" lang="bs" xmltv_id="">Hema TV BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-78-alfa-tv" lang="bs" xmltv_id="">ALFA TV BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-17-tv-k3-hd" lang="bs" xmltv_id="">TV K3 HD BLKN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-rtv-zenica-hd" lang="bs" xmltv_id="">RTV Zenica HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="656" lang="hr" xmltv_id="">RTV Zenica HD BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274913832105" lang="hr" xmltv_id="">HRT 1 BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344331" lang="hr" xmltv_id="">HRT 2 BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276771368111" lang="hr" xmltv_id="">HRT 3 BLKN</channel>
@@ -155,7 +155,7 @@
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344376" lang="hr" xmltv_id="">Nicktoons BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784228" lang="hr" xmltv_id="">RTL Kockica BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784241" lang="hr" xmltv_id="">Cartoon Network BLKN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-125-animal-planet" lang="bs" xmltv_id="">Animal Planet BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1830" lang="hr" xmltv_id="">Animal Planet BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-3-rts-1" lang="bs" xmltv_id="">RTS 1 BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-20-rts-2" lang="bs" xmltv_id="">RTS 2 BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-327-rts-3" lang="bs" xmltv_id="">RTS 3 BLKN</channel>
@@ -198,14 +198,14 @@
   <channel site="mtel.ba" site_id="iptv#ch-219-ha-ha" lang="bs" xmltv_id="">HA HA BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-220-lol" lang="bs" xmltv_id="">LOL BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-221-pink-reality" lang="bs" xmltv_id="">Pink Reality BLKN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-222-hayat-music" lang="bs" xmltv_id="">Hayat Music BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="496" lang="hr" xmltv_id="">Hayat Music BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-472-bn-music-hd" lang="bs" xmltv_id="">BN Music HD BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-174-pink-music" lang="bs" xmltv_id="">Pink Music BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-176-pink-music-2" lang="bs" xmltv_id="">Pink Music 2 BLKN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-180-pink-hits" lang="bs" xmltv_id="">PINK HITS BLKN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-185-pink-hits-2" lang="bs" xmltv_id="">Pink Hits 2 BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1689" lang="hr" xmltv_id="">Pink Hits BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1690" lang="hr" xmltv_id="">Pink Hits 2 BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-209-pink-folk" lang="bs" xmltv_id="">Pink Folk BLKN</channel>
-  <channel site="mtel.ba" site_id="iptv#ch-203-pink-folk-2" lang="bs" xmltv_id="">PINK FOLK 2 BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1684" lang="hr" xmltv_id="">PINK FOLK 2 BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-178-pink-koncert" lang="bs" xmltv_id="">PINK KONCERT BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-48-rts-kolo" lang="bs" xmltv_id="">RTS Kolo BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-arena-premium-1-hd" lang="bs" xmltv_id="">Arena Premium 1 HD BLKN</channel>
