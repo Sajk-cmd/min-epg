@@ -245,4 +245,11 @@
   <channel site="epg.telemach.ba" site_id="1143" lang="hr" xmltv_id="">SK 6 HD BLKN</channel>
   <channel site="epg.telemach.ba" site_id="1851" lang="hr" xmltv_id="">Nova Sport HD BLKN</channel>
   <channel site="epg.telemach.ba" site_id="73" lang="hr" xmltv_id="">SK Golf HD BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696524328080" lang="hr" xmltv_id="">SK1 </channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696528936296" lang="hr" xmltv_id="">SK2 </channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696530472226" lang="hr" xmltv_id="">SK3 </channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696530983951" lang="hr" xmltv_id="">SK4 </channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696521768448" lang="hr" xmltv_id="">SK5 </channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="696524328149" lang="hr" xmltv_id="">SK6 </channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="704057896326" lang="hr" xmltv_id="">SK Golf </channel>
 </channels>
