@@ -122,11 +122,11 @@
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344388" lang="hr" xmltv_id="">Cinemax BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276767784259" lang="hr" xmltv_id="">Cinemax 2 BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344379" lang="hr" xmltv_id="">CineStar TV 1 BLKN</channel>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="342160935987" lang="hr" xmltv_id="">Cinestar TV 2 BLKN</channel>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276795432141" lang="hr" xmltv_id="">Cinestar TV Fantasy BLKN</channel>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="346586664198" lang="hr" xmltv_id="">Cinestar TV Comedy BLKN</channel>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856300" lang="hr" xmltv_id="">CineStar TV Action BLKN</channel>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856304" lang="hr" xmltv_id="">Cinestar TV Premiere 1 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="461780008179" lang="hr" xmltv_id="">Cinestar TV 2 BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="461779496007" lang="hr" xmltv_id="">Cinestar TV Fantasy BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="465340456385" lang="hr" xmltv_id="">Cinestar TV Comedy BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="461776936332" lang="hr" xmltv_id="">CineStar TV Action BLKN</channel>
+  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="461760552050" lang="hr" xmltv_id="">Cinestar TV Premiere 1 BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856295" lang="hr" xmltv_id="">STAR BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770856280" lang="hr" xmltv_id="">STAR Crime BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="276770344385" lang="hr" xmltv_id="">STAR Movies BLKN</channel>
@@ -139,7 +139,6 @@
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282239016172" lang="hr" xmltv_id="">DM SAT BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274913832116" lang="hr" xmltv_id="">CMC - Croatian Music Channel BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282239016175" lang="hr" xmltv_id="">Jugoton BLKN</channel>
-  <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="338256936368" lang="hr" xmltv_id="">MTV 80s BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="274914856088" lang="hr" xmltv_id="">Arenasport 1 HR BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282238503965" lang="hr" xmltv_id="">Arenasport 2 HR BLKN</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="282238503966" lang="hr" xmltv_id="">Arenasport 3 HR BLKN</channel>
