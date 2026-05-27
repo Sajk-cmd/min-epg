@@ -14,7 +14,7 @@
   <channel site="tv24.se" site_id="tv12-hd" lang="sv" xmltv_id="">TV12 HD SE</channel>
   <channel site="tv24.se" site_id="kunskapskanalen-hd" lang="sv" xmltv_id="">Kunskapskanalen HD SE</channel>
   <channel site="tv24.se" site_id="axess-tv" xmltv_id="AxessTV.se@SD">Axess TV SE</channel>
-  <channel site="tv24.se" site_id="bbc-nordic-hd" lang="sv" xmltv_id="">BBC Nordic HD SE</channel>
+  <channel site="tv24.se" site_id="bbc-nordic" lang="sv" xmltv_id="">BBC Nordic HD SE</channel>
   <channel site="tv24.se" site_id="discovery-channel-hd" lang="sv" xmltv_id="">Discovery Channel HD SE</channel>
   <channel site="tv24.se" site_id="discovery-science" lang="sv" xmltv_id="">Discovery Science SE</channel>
   <channel site="tv24.se" site_id="v-film-premiere-hd" lang="sv" xmltv_id="VFilmPremiere.se@SD">V Film Premiere HD SE</channel>
@@ -40,7 +40,7 @@
   <channel site="tv24.se" site_id="tlc-hd" lang="sv" xmltv_id="">TLC HD SE</channel>
   <channel site="tv24.se" site_id="horse-country" lang="en" xmltv_id="HorseCountryTV.uk@SD">Horse Country SE</channel>
   <channel site="tv24.se" site_id="viasat-nature-hd" lang="sv" xmltv_id="">Viasat Nature HD SE</channel>
-  <channel site="tv24.se" site_id="viasat-history-hd" lang="sv" xmltv_id="">Viasat History HD Finland SE</channel>
+  <channel site="tv24.se" site_id="viasat-history" lang="sv" xmltv_id="">Viasat History HD Finland SE</channel>
   <channel site="tv24.se" site_id="viasat-explore-hd" lang="sv" xmltv_id="">Viasat Explore HD SE</channel>
   <channel site="tv24.se" site_id="travel-channel-hd" lang="sv" xmltv_id="">Travel Channel HD SE</channel>
   <channel site="tv24.se" site_id="al-jazeera-hd" lang="sv" xmltv_id="">Al Jazeera HD SE</channel>
@@ -70,7 +70,7 @@
   <channel site="tv24.se" site_id="atg-live" xmltv_id="ATGLive.se@SD">ATG Live SE</channel>
   <channel site="tv24.se" site_id="svt-barn" xmltv_id="SVTBarn.se@SD">SVT Barn SE</channel>
   <channel site="tv24.se" site_id="cartoon-network" xmltv_id="CartoonNetworkWesternEurope.uk@Sweden">Cartoon Network SE</channel>
-  <channel site="tv24.se" site_id="disney-channel-hd" lang="sv" xmltv_id="">Disney Channel HD SE</channel>
+  <channel site="tv24.se" site_id="disney-channel" lang="sv" xmltv_id="">Disney Channel HD SE</channel>
   <channel site="tv24.se" site_id="nick-jr-hd" lang="sv" xmltv_id="">Nick Jr. HD SE</channel>
   <channel site="tv24.se" site_id="nicktoons" lang="sv" xmltv_id="NicktoonsScandinavia.nl@SD">Nicktoons SE</channel>
   <channel site="tv24.se" site_id="nickelodeon-hd" lang="sv" xmltv_id="">Nickelodeon HD SE</channel>
