@@ -215,4 +215,34 @@
   <channel site="mtel.ba" site_id="iptv#ch-89-minimax" lang="bs" xmltv_id="">Minimax BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-100-hayatovci" lang="bs" xmltv_id="">HAYATOVCI BLKN</channel>
   <channel site="mtel.ba" site_id="iptv#ch-91-pink-super-kids" lang="bs" xmltv_id="">Pink Super Kids BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1522" lang="hr" xmltv_id="">Cinemania HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1880" lang="hr" xmltv_id="">Diva BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1620" lang="hr" xmltv_id="">Pink Film BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1104" lang="hr" xmltv_id="">Grand International HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1527" lang="hr" xmltv_id="">MTV BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1835" lang="hr" xmltv_id="">STAR Life HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1584" lang="hr" xmltv_id="">Prva Plus BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1698" lang="hr" xmltv_id="">Nova S HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="119" lang="hr" xmltv_id="">TLC HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1866" lang="hr" xmltv_id="">Travel Channel HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1865" lang="hr" xmltv_id="">Home and Garden TV BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="483" lang="hr" xmltv_id="">City TV HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1640" lang="hr" xmltv_id="">BBC Earth HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1856" lang="hr" xmltv_id="">Discovery Channel HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="486" lang="hr" xmltv_id="">MTV Igman HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="655" lang="hr" xmltv_id="">TV Sarajevo HD</channel>
+  <channel site="epg.telemach.ba" site_id="1852" lang="hr" xmltv_id="">Eurosport 1 HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1505" lang="hr" xmltv_id="">Eurosport 2 HD BLKN</channel>
+  <channel site="tvarenasport.com" site_id="01" lang="sr" xmltv_id="">Arena Sport 1 Serbia</channel>
+  <channel site="tvarenasport.com" site_id="02" lang="sr" xmltv_id="">Arena Sport 2 Serbia</channel>
+  <channel site="tvarenasport.com" site_id="03" lang="sr" xmltv_id="">Arena Sport 3 Serbia</channel>
+  <channel site="tvarenasport.com" site_id="05" lang="sr" xmltv_id="">Arena Sport 5 Serbia</channel>
+  <channel site="epg.telemach.ba" site_id="18" lang="hr" xmltv_id="">SK HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="67" lang="hr" xmltv_id="">SK 2 HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="68" lang="hr" xmltv_id="">SK 3 HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="69" lang="hr" xmltv_id="">SK 4 HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1142" lang="hr" xmltv_id="">SK 5 HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1143" lang="hr" xmltv_id="">SK 6 HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="1851" lang="hr" xmltv_id="">Nova Sport HD BLKN</channel>
+  <channel site="epg.telemach.ba" site_id="73" lang="hr" xmltv_id="">SK Golf HD BLKN</channel>
 </channels>
