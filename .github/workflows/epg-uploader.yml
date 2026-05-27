@@ -9,6 +9,8 @@ on:
 jobs:
   grab-epg:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Krävs för att GitHub-boten ska kunna pusha filen
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -17,14 +19,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-
-    - name: Install Python dependencies
-      run: pip install requests
 
     - name: Clone iptv-org/epg
       run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-grabber
@@ -43,9 +37,10 @@ jobs:
       run: |
         mv epg-grabber/guide.xml ./guide.xml
 
-    - name: Filter and Upload to Dropbox
-      env:
-        DROPBOX_REFRESH_TOKEN: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
-        DROPBOX_APP_KEY: ${{ secrets.DROPBOX_APP_KEY }}
-        DROPBOX_APP_SECRET: ${{ secrets.DROPBOX_APP_SECRET }}
-      run: python filter_and_upload.py
+    - name: Commit and Push
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add guide.xml
+        # Committar bara om filen har ändrats
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update EPG guide.xml" && git push)
