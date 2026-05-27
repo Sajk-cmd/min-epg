@@ -1,4 +1,6 @@
-  <channel site="tv24.se" site_id="bbc-nordic" lang="sv" xmltv_id="">BBC Nordic HD SE</channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+<channel site="tv24.se" site_id="bbc-nordic" lang="sv" xmltv_id="">BBC Nordic HD SE</channel>
   <channel site="tv24.se" site_id="viasat-nature-hd" lang="sv" xmltv_id="">Viasat Nature HD SE</channel>
   <channel site="allente.no" site_id="se#661" lang="se" xmltv_id="">TV4 Sport Live 3 HD (T)</channel>
   <channel site="allente.no" site_id="se#662" lang="se" xmltv_id="">TV4 Sport Live 4 HD (T)</channel>
@@ -7,3 +9,4 @@
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="338256936339" lang="hr" xmltv_id="">Pink Music</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="338258472220" lang="hr" xmltv_id="">Pink Music 2</channel>
   <channel site="mojmaxtv.hrvatskitelekom.hr" site_id="338257448321" lang="hr" xmltv_id="">Pink Folk 1</channel>
+</channels>
