@@ -3,14 +3,13 @@ name: Update EPG
 on:
   schedule:
     - cron: '0 3 * * *'
-      timezone: 'Europe/Stockholm'
   workflow_dispatch:
 
 jobs:
   grab-epg:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Krävs för att GitHub-boten ska kunna pusha filen
+      contents: write
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -33,29 +32,28 @@ jobs:
         cd epg-grabber
         npm run grab -- --channels=../my_channels.xml
 
-    - name: Move guide to root
-      run: |
-        mv epg-grabber/guide.xml ./guide.xml
-
     - name: Commit and Push
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
-        # Öka buffertstorlek rejält för att hantera stora filer
+        # Inställningar för stora filer
         git config --global http.postBuffer 524288000
         git config --global http.lowSpeedLimit 0
         git config --global http.lowSpeedTime 999999
         
-        git add guide.xml
+        # Rensa gamla filen och kopiera in den nya
+        rm -f guide.xml
+        cp epg-grabber/guide.xml ./guide.xml
         
-        # Kontrollera om ändringar finns
-        if ! git diff --quiet --exit-code; then
-          git commit -m "Update EPG guide.xml"
-          # Pusha med retry om anslutningen bryts
-          for i in {1..3}; do
-            git push origin main && break || sleep 10
-          done
-        else
-          echo "Inga ändringar att committa."
-        fi
+        # Tvinga Git att lägga till filen
+        git add -f guide.xml
+        
+        # Skapa en commit. Om inget ändrats skapar vi ändå en commit 
+        # genom att amenda föregående eller skapa en ny med tidsstämpel
+        git commit -m "Update EPG guide.xml - $(date)"
+        
+        # Pusha med force för att skriva över historiken
+        for i in {1..3}; do
+          git push origin main --force && break || sleep 10
+        done
